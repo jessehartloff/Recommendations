@@ -7,7 +7,6 @@ object Recommendations {
   }
 
 
-  // population or sample? sample coded here
   def correlation[T](elements: List[T], property1: T => Double, property2: T => Double): Double = {
     0.0
   }
